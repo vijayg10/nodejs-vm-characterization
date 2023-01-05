@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "start:clinic": "clinic doctor -- node src/index.js",
-    "start": "node src/index.js",
+    "start:with-vm": "node src/with-vm.js",
+    "start:without-vm": "node src/without-vm.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
