@@ -1,0 +1,21 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "description": "Sample program to characterize rules engine",
+  "main": "src/index.js",
+  "scripts": {
+    "start:clinic": "clinic doctor -- node src/index.js",
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-status-monitor": "^1.3.4",
+    "vm": "^0.1.0"
+  },
+  "devDependencies": {
+    "clinic": "^12.0.0"
+  }
+}
