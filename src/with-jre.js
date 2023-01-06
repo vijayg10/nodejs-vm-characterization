@@ -53,5 +53,5 @@ app.get('/', (req, res) => {
 })
 
 app.listen(port, () => {
-  console.log(`With-VM test app listening on port ${port}`)
+  console.log(`With-JRE test app listening on port ${port}`)
 })
