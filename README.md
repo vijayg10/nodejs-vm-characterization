@@ -34,9 +34,9 @@ This logic is implemented in three ways and calculated the performance overhead 
   The resource usage is much less when using `JRE`.
 
 - We can also observe the following HTML reports from the tool `clinic` and get the resource usage graphs for double checking.
-  - [Clinic Report for Native Code](/assets/files/clinic-report-native-code.html)
-  - [Clinic Report for VM module](/assets/files/clinic-report-with-vm.html)
-  - [Clinic Report for JRE module](/assets/files/clinic-report-with-jre.html)
+  - ![Clinic Report for Native Code](/assets/images/screenshot-clinic-native-code.png)
+  - ![Clinic Report for VM module](/assets/images/screenshot-clinic-with-vm.png)
+  - ![Clinic Report for JRE module](/assets/images/screenshot-clinic-with-jre.png)
 
 ## Conclusion
 With the above observations, maintaining rules as javascript code and executing it with `VM` modules adds unnecessary performance overhead.
